@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(226, 214, 235);
+background-color: rgb(243, 243, 243);
+background-color: rgb(199, 226, 240);
+background-color: rgb(222, 219, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>658</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Chats">
+    <property name="title">
+     <string>&amp;Chat</string>
+    </property>
+    <addaction name="action_Connect"/>
+   </widget>
+   <widget class="QMenu" name="menu_Profile">
+    <property name="title">
+     <string>&amp;Profile</string>
+    </property>
+    <addaction name="action_Image"/>
+    <addaction name="action_Username"/>
+   </widget>
+   <widget class="QMenu" name="menu_About">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="action_Help"/>
+   </widget>
+   <addaction name="menu_Chats"/>
+   <addaction name="menu_Profile"/>
+   <addaction name="menu_About"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Connect">
+   <property name="text">
+    <string>&amp;Connect</string>
+   </property>
+  </action>
+  <action name="action_Image">
+   <property name="text">
+    <string>&amp;Image</string>
+   </property>
+  </action>
+  <action name="action_Username">
+   <property name="text">
+    <string>&amp;Username</string>
+   </property>
+  </action>
+  <action name="action_Help">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
